@@ -431,8 +431,6 @@ header {
     z-index: 1;
 }
 
-/* STEPS */
-
 #steps .row {
     display: flex;
     justify-content: space-between;
@@ -503,11 +501,8 @@ header {
     opacity: 0.8;
     z-index: -10;
     color: rgb(100, 21, 255);
-    /* currentColor will inherit this */
     fill: currentColor;
 }
-
-/* VALUES */
 
 #values .row {
     display: flex;
@@ -597,8 +592,6 @@ header {
     line-height: 1.625;
     color: #718096;
 }
-
-/* PRICING */
 
 #pricing .row {
     display: flex;
@@ -805,7 +798,6 @@ header {
     justify-content: space-between;
 }
 
-/* TESTIMONIALS */
 section #testimonials {
     padding: 0px;
 }
@@ -941,8 +933,6 @@ section #testimonials {
     height: 20px;
 }
 
-/* START / CALL TO ACTION */
-
 main {
     margin-bottom: 96px;
 }
@@ -1045,8 +1035,6 @@ main {
     color: rgb(80 17 204);
     opacity: 0.5;
 }
-
-/* FOOTER */
 
 footer {
     padding: 96px 32px;
@@ -1191,8 +1179,6 @@ footer {
     z-index: 1;
     opacity: 0.5;
 }
-
-/* MOBILE RESPONSIVENESS */
 
 @media (max-width: 1280px) {
     header .row {
